@@ -46,7 +46,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.lblOperationName = new System.Windows.Forms.Label();
-            this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
             this.btnModifyPwd = new System.Windows.Forms.Button();
             this.btnExit = new System.Windows.Forms.Button();
             this.btnReturnBook = new System.Windows.Forms.Button();
@@ -60,6 +59,7 @@
             this.销售管理XToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.系统SToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
             this.statusStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.spContainer)).BeginInit();
             this.spContainer.Panel1.SuspendLayout();
@@ -166,11 +166,12 @@
             // 
             // spContainer.Panel1
             // 
+            this.spContainer.Panel1.AllowDrop = true;
+            this.spContainer.Panel1.Controls.Add(this.monthCalendar1);
             this.spContainer.Panel1.Controls.Add(this.btnReaderManager);
             this.spContainer.Panel1.Controls.Add(this.label2);
             this.spContainer.Panel1.Controls.Add(this.label1);
             this.spContainer.Panel1.Controls.Add(this.lblOperationName);
-            this.spContainer.Panel1.Controls.Add(this.monthCalendar1);
             this.spContainer.Panel1.Controls.Add(this.btnModifyPwd);
             this.spContainer.Panel1.Controls.Add(this.btnExit);
             this.spContainer.Panel1.Controls.Add(this.btnReturnBook);
@@ -229,13 +230,6 @@
             this.lblOperationName.TabIndex = 0;
             this.lblOperationName.Text = "Welcom";
             this.lblOperationName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // monthCalendar1
-            // 
-            this.monthCalendar1.Location = new System.Drawing.Point(15, 147);
-            this.monthCalendar1.Margin = new System.Windows.Forms.Padding(14, 15, 14, 15);
-            this.monthCalendar1.Name = "monthCalendar1";
-            this.monthCalendar1.TabIndex = 1;
             // 
             // btnModifyPwd
             // 
@@ -383,6 +377,12 @@
             this.系统SToolStripMenuItem.Size = new System.Drawing.Size(82, 29);
             this.系统SToolStripMenuItem.Text = "系统(&S)";
             // 
+            // monthCalendar1
+            // 
+            this.monthCalendar1.Location = new System.Drawing.Point(26, 157);
+            this.monthCalendar1.Name = "monthCalendar1";
+            this.monthCalendar1.TabIndex = 2;
+            // 
             // FmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -424,7 +424,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lblOperationName;
-        private System.Windows.Forms.MonthCalendar monthCalendar1;
         private System.Windows.Forms.Button btnModifyPwd;
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Button btnReturnBook;
@@ -438,6 +437,7 @@
         private System.Windows.Forms.ToolStripMenuItem 销售管理XToolStripMenuItem;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem 系统SToolStripMenuItem;
+        private System.Windows.Forms.MonthCalendar monthCalendar1;
     }
 }
 

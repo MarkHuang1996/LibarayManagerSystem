@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Models
 {
-    public class Categories
+    [Serializable]
+    public class Category
 
     {
         public int CategoryId { get; set; }

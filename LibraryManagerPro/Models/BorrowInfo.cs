@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace Models
 {
+    /// <summary>
+    /// BorrowInfo Main table
+    /// 
+    /// </summary>
     [Serializable]
    public  class BorrowInfo
     {

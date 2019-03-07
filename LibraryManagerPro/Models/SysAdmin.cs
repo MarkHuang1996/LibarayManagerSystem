@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Models
 {
     [Serializable]
-    public class SysAdmins
+    public class SysAdmin
     {
         public int AdminId { get; set; }
         public string AdminName { get; set; }

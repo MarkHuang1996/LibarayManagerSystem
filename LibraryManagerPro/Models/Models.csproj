@@ -44,13 +44,16 @@
     <Compile Include="Books.cs" />
     <Compile Include="BorrowDetail.cs" />
     <Compile Include="BorrowInfo.cs" />
-    <Compile Include="Categories.cs" />
+    <Compile Include="Category.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Publishers.cs" />
-    <Compile Include="ReaderRoles.cs" />
-    <Compile Include="Readers.cs" />
+    <Compile Include="Publisher.cs" />
+    <Compile Include="ReaderRole.cs" />
+    <Compile Include="Reader.cs" />
     <Compile Include="ReturnBook.cs" />
-    <Compile Include="SysAdmins.cs" />
+    <Compile Include="SysAdmin.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Ext\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

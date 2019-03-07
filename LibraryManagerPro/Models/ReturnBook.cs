@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Models
 {
-    class ReturnBook
+    [Serializable]
+  public  class ReturnBook
     {
         public int ReturnId { get; set; }
         public int BorrowDetailId { get; set; }

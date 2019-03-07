@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Models
 {
     [Serializable]
-    public class ReaderRoles
+    public class ReaderRole
     {
         public int RoleId { get; set; }
         public string  RoleName { get; set; }

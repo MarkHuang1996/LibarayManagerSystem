@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Models
 {
     [Serializable]
-    class Readers
+    class Reader
     {
 
         public int MyProReaderIdperty { get; set; }

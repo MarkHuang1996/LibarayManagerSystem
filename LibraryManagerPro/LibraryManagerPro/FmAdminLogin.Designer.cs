@@ -67,6 +67,7 @@
             this.btnLogin.TabIndex = 23;
             this.btnLogin.Text = "Log In";
             this.btnLogin.UseVisualStyleBackColor = true;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // txtLoginPwd
             // 
@@ -77,7 +78,7 @@
             this.txtLoginPwd.PasswordChar = '*';
             this.txtLoginPwd.Size = new System.Drawing.Size(202, 26);
             this.txtLoginPwd.TabIndex = 22;
-            this.txtLoginPwd.Text = "777777";
+            this.txtLoginPwd.Text = "huangrui";
             // 
             // txtLoginId
             // 
@@ -87,7 +88,7 @@
             this.txtLoginId.Name = "txtLoginId";
             this.txtLoginId.Size = new System.Drawing.Size(202, 26);
             this.txtLoginId.TabIndex = 19;
-            this.txtLoginId.Text = "1000";
+            this.txtLoginId.Text = "2019001";
             // 
             // label2
             // 

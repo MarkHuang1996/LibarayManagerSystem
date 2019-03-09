@@ -14,7 +14,9 @@ namespace LibraryManagerPro
     {
         public FmMain()
         {
+            //show currentUser
             InitializeComponent();
+            this.tssl_AdminName.Text = Program.objCurrentAdmin.AdminName;
         }
     }
 }

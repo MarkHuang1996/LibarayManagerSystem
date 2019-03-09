@@ -26,7 +26,7 @@ namespace DAL
             SqlParameter[] param = new SqlParameter[]
             {
                 new SqlParameter("@AdminId",objAdmin.AdminId),
-                new SqlParameter("@AdminPwd",objAdmin.LoginPwd)
+                new SqlParameter("@LoginPwd",objAdmin.LoginPwd)
             };
             //excute quary
             SqlDataReader objReader = SQLServerHelper.GetReader(sql, param);

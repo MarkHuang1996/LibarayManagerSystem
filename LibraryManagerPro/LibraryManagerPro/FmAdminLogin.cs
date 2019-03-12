@@ -32,12 +32,7 @@ namespace LibraryManagerPro
                 this.txtLoginId.Focus();
                 return;
             }
-            if (!DataValidate.isInteger(txtLoginId.Text.Trim()))
-            {
-                MessageBox.Show("Admin ID Should be numbers ", "SIGN IN Tipe");
-                this.txtLoginId.Focus();
-                return;
-            }
+   
             if (this.txtLoginPwd.Text.Trim().Length == 0)
             {
                 MessageBox.Show("Please entry the Password", "SIGN IN Tipe");

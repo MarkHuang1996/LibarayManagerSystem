@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FmNewBook));
             this.BookPosition = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Author = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -115,29 +115,28 @@
             this.Author,
             this.BookCount,
             this.BookPosition});
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("SimSun", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Blue;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dgvBookList.DefaultCellStyle = dataGridViewCellStyle1;
-            this.dgvBookList.Location = new System.Drawing.Point(33, 544);
-            this.dgvBookList.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("SimSun", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Blue;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvBookList.DefaultCellStyle = dataGridViewCellStyle3;
+            this.dgvBookList.Location = new System.Drawing.Point(22, 354);
             this.dgvBookList.Name = "dgvBookList";
             this.dgvBookList.ReadOnly = true;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("SimSun", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Red;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.Yellow;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.Red;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvBookList.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("SimSun", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Red;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.Yellow;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.Red;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvBookList.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.dgvBookList.RowTemplate.Height = 23;
             this.dgvBookList.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvBookList.Size = new System.Drawing.Size(1436, 548);
+            this.dgvBookList.Size = new System.Drawing.Size(957, 356);
             this.dgvBookList.TabIndex = 47;
             // 
             // BookCount
@@ -150,20 +149,18 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(30, 220);
-            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label10.Location = new System.Drawing.Point(20, 143);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(76, 20);
+            this.label10.Size = new System.Drawing.Size(53, 13);
             this.label10.TabIndex = 0;
             this.label10.Text = "BookId：";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(382, 58);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(255, 38);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(89, 20);
+            this.label2.Size = new System.Drawing.Size(61, 13);
             this.label2.TabIndex = 0;
             this.label2.Text = "Category：";
             // 
@@ -171,10 +168,9 @@
             // 
             this.btnClose.Image = ((System.Drawing.Image)(resources.GetObject("btnClose.Image")));
             this.btnClose.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnClose.Location = new System.Drawing.Point(1333, 51);
-            this.btnClose.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnClose.Location = new System.Drawing.Point(889, 33);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(136, 65);
+            this.btnClose.Size = new System.Drawing.Size(91, 42);
             this.btnClose.TabIndex = 42;
             this.btnClose.Text = "Close ";
             this.btnClose.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -185,10 +181,9 @@
             this.lblBookCount.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.lblBookCount.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lblBookCount.Font = new System.Drawing.Font("SimSun", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lblBookCount.Location = new System.Drawing.Point(136, 122);
-            this.lblBookCount.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblBookCount.Location = new System.Drawing.Point(91, 79);
             this.lblBookCount.Name = "lblBookCount";
-            this.lblBookCount.Size = new System.Drawing.Size(213, 40);
+            this.lblBookCount.Size = new System.Drawing.Size(142, 26);
             this.lblBookCount.TabIndex = 0;
             this.lblBookCount.Text = "0";
             this.lblBookCount.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -197,10 +192,9 @@
             // 
             this.lblBookName.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.lblBookName.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblBookName.Location = new System.Drawing.Point(136, 52);
-            this.lblBookName.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblBookName.Location = new System.Drawing.Point(91, 34);
             this.lblBookName.Name = "lblBookName";
-            this.lblBookName.Size = new System.Drawing.Size(213, 40);
+            this.lblBookName.Size = new System.Drawing.Size(142, 26);
             this.lblBookName.TabIndex = 0;
             this.lblBookName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -208,10 +202,9 @@
             // 
             this.lblBookId.BackColor = System.Drawing.SystemColors.Control;
             this.lblBookId.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblBookId.Location = new System.Drawing.Point(136, 210);
-            this.lblBookId.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblBookId.Location = new System.Drawing.Point(91, 136);
             this.lblBookId.Name = "lblBookId";
-            this.lblBookId.Size = new System.Drawing.Size(213, 40);
+            this.lblBookId.Size = new System.Drawing.Size(142, 26);
             this.lblBookId.TabIndex = 0;
             this.lblBookId.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -219,23 +212,22 @@
             // 
             this.btnSave.Image = ((System.Drawing.Image)(resources.GetObject("btnSave.Image")));
             this.btnSave.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSave.Location = new System.Drawing.Point(1303, 406);
-            this.btnSave.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnSave.Location = new System.Drawing.Point(869, 264);
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(166, 62);
+            this.btnSave.Size = new System.Drawing.Size(111, 40);
             this.btnSave.TabIndex = 41;
             this.btnSave.Text = "Save  ";
             this.btnSave.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft YaHei", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label4.Location = new System.Drawing.Point(939, 414);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(626, 269);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(212, 39);
+            this.label4.Size = new System.Drawing.Size(143, 27);
             this.label4.TabIndex = 45;
             this.label4.Text = "[AddCount]：";
             // 
@@ -243,10 +235,9 @@
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Microsoft YaHei", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.label13.Location = new System.Drawing.Point(422, 414);
-            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label13.Location = new System.Drawing.Point(281, 269);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(189, 39);
+            this.label13.Size = new System.Drawing.Size(128, 27);
             this.label13.TabIndex = 46;
             this.label13.Text = "[BarCode]：";
             // 
@@ -254,39 +245,36 @@
             // 
             this.txtAddCount.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtAddCount.Font = new System.Drawing.Font("Microsoft YaHei", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.txtAddCount.Location = new System.Drawing.Point(1159, 409);
-            this.txtAddCount.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtAddCount.Location = new System.Drawing.Point(773, 266);
             this.txtAddCount.Name = "txtAddCount";
-            this.txtAddCount.Size = new System.Drawing.Size(104, 49);
+            this.txtAddCount.Size = new System.Drawing.Size(70, 35);
             this.txtAddCount.TabIndex = 40;
             // 
             // txtBarCode
             // 
             this.txtBarCode.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtBarCode.Font = new System.Drawing.Font("Microsoft YaHei", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.txtBarCode.Location = new System.Drawing.Point(614, 409);
-            this.txtBarCode.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtBarCode.Location = new System.Drawing.Point(409, 266);
             this.txtBarCode.Name = "txtBarCode";
-            this.txtBarCode.Size = new System.Drawing.Size(298, 49);
+            this.txtBarCode.Size = new System.Drawing.Size(199, 35);
             this.txtBarCode.TabIndex = 39;
+            this.txtBarCode.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtBarCode_KeyDown);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(30, 60);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(20, 39);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(108, 20);
+            this.label1.Size = new System.Drawing.Size(75, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Book Name：";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(30, 132);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Location = new System.Drawing.Point(20, 86);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(60, 20);
+            this.label6.Size = new System.Drawing.Size(43, 13);
             this.label6.TabIndex = 0;
             this.label6.Text = "Total：";
             // 
@@ -294,10 +282,9 @@
             // 
             this.lblCategory.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.lblCategory.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblCategory.Location = new System.Drawing.Point(489, 48);
-            this.lblCategory.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblCategory.Location = new System.Drawing.Point(326, 31);
             this.lblCategory.Name = "lblCategory";
-            this.lblCategory.Size = new System.Drawing.Size(213, 40);
+            this.lblCategory.Size = new System.Drawing.Size(142, 26);
             this.lblCategory.TabIndex = 0;
             this.lblCategory.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -305,10 +292,9 @@
             // 
             this.lblBookPosition.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.lblBookPosition.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblBookPosition.Location = new System.Drawing.Point(489, 122);
-            this.lblBookPosition.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblBookPosition.Location = new System.Drawing.Point(326, 79);
             this.lblBookPosition.Name = "lblBookPosition";
-            this.lblBookPosition.Size = new System.Drawing.Size(213, 40);
+            this.lblBookPosition.Size = new System.Drawing.Size(142, 26);
             this.lblBookPosition.TabIndex = 0;
             this.lblBookPosition.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -324,11 +310,9 @@
             this.gbinfo.Controls.Add(this.label9);
             this.gbinfo.Controls.Add(this.label10);
             this.gbinfo.Controls.Add(this.label2);
-            this.gbinfo.Location = new System.Drawing.Point(493, 37);
-            this.gbinfo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.gbinfo.Location = new System.Drawing.Point(329, 24);
             this.gbinfo.Name = "gbinfo";
-            this.gbinfo.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.gbinfo.Size = new System.Drawing.Size(771, 287);
+            this.gbinfo.Size = new System.Drawing.Size(514, 187);
             this.gbinfo.TabIndex = 43;
             this.gbinfo.TabStop = false;
             this.gbinfo.Text = "[BookInfo]";
@@ -336,29 +320,27 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(382, 132);
-            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label9.Location = new System.Drawing.Point(255, 86);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(81, 20);
+            this.label9.Size = new System.Drawing.Size(56, 13);
             this.label9.TabIndex = 0;
             this.label9.Text = "Position：";
             // 
             // pbImage
             // 
             this.pbImage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pbImage.Location = new System.Drawing.Point(33, 37);
-            this.pbImage.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pbImage.Location = new System.Drawing.Point(22, 24);
             this.pbImage.Name = "pbImage";
-            this.pbImage.Size = new System.Drawing.Size(372, 429);
+            this.pbImage.Size = new System.Drawing.Size(249, 280);
             this.pbImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbImage.TabIndex = 44;
             this.pbImage.TabStop = false;
             // 
             // FmNewBook
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1502, 1128);
+            this.ClientSize = new System.Drawing.Size(1001, 733);
             this.Controls.Add(this.dgvBookList);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnSave);
@@ -368,6 +350,7 @@
             this.Controls.Add(this.txtBarCode);
             this.Controls.Add(this.gbinfo);
             this.Controls.Add(this.pbImage);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "FmNewBook";
             this.Text = "FmNewBook";
             ((System.ComponentModel.ISupportInitialize)(this.dgvBookList)).EndInit();

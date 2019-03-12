@@ -7,20 +7,24 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using BLL;
+using Models;
 
 namespace LibraryManagerPro
 {
     public partial class FmBookManager : Form
     {
+        private BookManager  objBookManager= new BookManager();
         public FmBookManager()
         {
             InitializeComponent();
+            this.cboCategory.DataSource = objBookManager.GetCategory();
+            this.cboCategory.DisplayMember = "CategoryName";
+            this.cboCategory.ValueMember = "CategoryId";
+            this.cboCategory.SelectedIndex = -1;
+
         }
 
-        private void label10_Click(object sender, EventArgs e)
-        {
-
-            
-        }
+ 
     }
 }

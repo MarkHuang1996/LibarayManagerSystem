@@ -225,8 +225,8 @@
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(89, 20);
             this.label10.TabIndex = 0;
-            this.label10.Text = "图书编号：";
-            this.label10.Click += new System.EventHandler(this.label10_Click);
+            this.label10.Text = "BookId：";
+          
             // 
             // cbo_Publisher
             // 

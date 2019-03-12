@@ -48,6 +48,10 @@
     <Compile Include="SysAdminService.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{8a33129d-388f-4b24-b30e-642232ca9d5d}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DBUtility\DBUtility.csproj">
       <Project>{2ed8122e-0600-461f-924f-01f6903d63ce}</Project>
       <Name>DBUtility</Name>

@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 namespace Models
 {
     [Serializable]
-    class Reader
+   public class Reader
     {
 
-        public int MyProReaderIdperty { get; set; }
+        public int ReaderId { get; set; }
         public string ReaderCard { get; set; }
         public string ReaderNumber { get; set; }
         public string Gender { get; set; }

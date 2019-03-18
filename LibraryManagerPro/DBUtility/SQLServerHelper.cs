@@ -148,7 +148,7 @@ namespace DBUtility
                 //excepion log call writelog method
                 string errorInfo = "when calling the  GetSingleReulst(string sql, SqlParameter[] param) method : " + ex.Message;
                 WriteLog(errorInfo);
-                throw new Exception(errorInfo);
+                throw ex;
             }
             finally
             {

@@ -21,6 +21,7 @@ namespace LibraryManagerPro
             InitializeComponent();
             this.txtAddCount.Enabled = false;
             this.btnSave.Enabled = false;
+            this.dgvBookList.AutoGenerateColumns = false;
         }
 
         private void txtBarCode_KeyDown(object sender, KeyEventArgs e)

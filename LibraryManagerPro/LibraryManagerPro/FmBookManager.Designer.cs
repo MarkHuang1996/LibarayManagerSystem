@@ -87,7 +87,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(381, 127);
+            this.label5.Location = new System.Drawing.Point(381, 128);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(76, 20);
@@ -96,13 +96,14 @@
             // 
             // btnCloseVideo
             // 
-            this.btnCloseVideo.Location = new System.Drawing.Point(163, 1031);
+            this.btnCloseVideo.Location = new System.Drawing.Point(164, 1031);
             this.btnCloseVideo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnCloseVideo.Name = "btnCloseVideo";
             this.btnCloseVideo.Size = new System.Drawing.Size(116, 65);
             this.btnCloseVideo.TabIndex = 61;
             this.btnCloseVideo.Text = "CloseCam";
             this.btnCloseVideo.UseVisualStyleBackColor = true;
+            this.btnCloseVideo.Click += new System.EventHandler(this.btnCloseVideo_Click);
             // 
             // btnChoseImage
             // 
@@ -113,31 +114,34 @@
             this.btnChoseImage.TabIndex = 57;
             this.btnChoseImage.Text = "ChoseImage";
             this.btnChoseImage.UseVisualStyleBackColor = true;
+            this.btnChoseImage.Click += new System.EventHandler(this.btnChoseImage_Click);
             // 
             // btnTake
             // 
-            this.btnTake.Location = new System.Drawing.Point(293, 1031);
+            this.btnTake.Location = new System.Drawing.Point(292, 1031);
             this.btnTake.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnTake.Name = "btnTake";
             this.btnTake.Size = new System.Drawing.Size(116, 65);
             this.btnTake.TabIndex = 56;
             this.btnTake.Text = "TakePhoto";
             this.btnTake.UseVisualStyleBackColor = true;
+            this.btnTake.Click += new System.EventHandler(this.btnTake_Click);
             // 
             // btnStartVideo
             // 
-            this.btnStartVideo.Location = new System.Drawing.Point(31, 1031);
+            this.btnStartVideo.Location = new System.Drawing.Point(32, 1031);
             this.btnStartVideo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnStartVideo.Name = "btnStartVideo";
             this.btnStartVideo.Size = new System.Drawing.Size(116, 65);
             this.btnStartVideo.TabIndex = 55;
             this.btnStartVideo.Text = "StartCam";
             this.btnStartVideo.UseVisualStyleBackColor = true;
+            this.btnStartVideo.Click += new System.EventHandler(this.btnStartVideo_Click);
             // 
             // pbImage
             // 
             this.pbImage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pbImage.Location = new System.Drawing.Point(31, 689);
+            this.pbImage.Location = new System.Drawing.Point(32, 689);
             this.pbImage.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pbImage.Name = "pbImage";
             this.pbImage.Size = new System.Drawing.Size(298, 319);
@@ -157,7 +161,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(381, 267);
+            this.label6.Location = new System.Drawing.Point(381, 268);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(105, 20);
@@ -189,7 +193,7 @@
             this.cbo_BookCategory.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbo_BookCategory.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cbo_BookCategory.FormattingEnabled = true;
-            this.cbo_BookCategory.Location = new System.Drawing.Point(488, 50);
+            this.cbo_BookCategory.Location = new System.Drawing.Point(488, 49);
             this.cbo_BookCategory.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cbo_BookCategory.Name = "cbo_BookCategory";
             this.cbo_BookCategory.Size = new System.Drawing.Size(211, 28);
@@ -223,10 +227,9 @@
             this.label10.Location = new System.Drawing.Point(381, 338);
             this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(89, 20);
+            this.label10.Size = new System.Drawing.Size(76, 20);
             this.label10.TabIndex = 0;
             this.label10.Text = "BookId：";
-          
             // 
             // cbo_Publisher
             // 
@@ -261,7 +264,7 @@
             // txt_Author
             // 
             this.txt_Author.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txt_Author.Location = new System.Drawing.Point(134, 190);
+            this.txt_Author.Location = new System.Drawing.Point(134, 189);
             this.txt_Author.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt_Author.Name = "txt_Author";
             this.txt_Author.Size = new System.Drawing.Size(214, 26);
@@ -309,7 +312,7 @@
             // pbCurrentImage
             // 
             this.pbCurrentImage.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pbCurrentImage.Location = new System.Drawing.Point(383, 689);
+            this.pbCurrentImage.Location = new System.Drawing.Point(382, 689);
             this.pbCurrentImage.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pbCurrentImage.Name = "pbCurrentImage";
             this.pbCurrentImage.Size = new System.Drawing.Size(293, 319);
@@ -350,11 +353,11 @@
             this.gbBook.Controls.Add(this.label13);
             this.gbBook.Controls.Add(this.dtp_PublishDate);
             this.gbBook.Controls.Add(this.label14);
-            this.gbBook.Location = new System.Drawing.Point(727, 689);
+            this.gbBook.Location = new System.Drawing.Point(728, 689);
             this.gbBook.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.gbBook.Name = "gbBook";
             this.gbBook.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.gbBook.Size = new System.Drawing.Size(748, 407);
+            this.gbBook.Size = new System.Drawing.Size(748, 408);
             this.gbBook.TabIndex = 54;
             this.gbBook.TabStop = false;
             this.gbBook.Text = "[Book Info]";
@@ -390,6 +393,7 @@
             this.btnSave.Text = "Save";
             this.btnSave.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // groupBox2
             // 
@@ -400,7 +404,7 @@
             this.groupBox2.Controls.Add(this.label3);
             this.groupBox2.Controls.Add(this.cboCategory);
             this.groupBox2.Controls.Add(this.label1);
-            this.groupBox2.Location = new System.Drawing.Point(31, 32);
+            this.groupBox2.Location = new System.Drawing.Point(32, 32);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -449,6 +453,7 @@
             this.btnQuery.Text = "Query";
             this.btnQuery.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnQuery.UseVisualStyleBackColor = true;
+            this.btnQuery.Click += new System.EventHandler(this.btnQuery_Click);
             // 
             // label3
             // 
@@ -465,7 +470,7 @@
             this.cboCategory.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboCategory.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cboCategory.FormattingEnabled = true;
-            this.cboCategory.Location = new System.Drawing.Point(126, 50);
+            this.cboCategory.Location = new System.Drawing.Point(126, 49);
             this.cboCategory.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cboCategory.Name = "cboCategory";
             this.cboCategory.Size = new System.Drawing.Size(174, 28);
@@ -503,7 +508,7 @@
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Blue;
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dgvBookList.DefaultCellStyle = dataGridViewCellStyle1;
-            this.dgvBookList.Location = new System.Drawing.Point(31, 176);
+            this.dgvBookList.Location = new System.Drawing.Point(32, 175);
             this.dgvBookList.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dgvBookList.Name = "dgvBookList";
             this.dgvBookList.ReadOnly = true;
@@ -517,8 +522,9 @@
             this.dgvBookList.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dgvBookList.RowTemplate.Height = 23;
             this.dgvBookList.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvBookList.Size = new System.Drawing.Size(1444, 487);
+            this.dgvBookList.Size = new System.Drawing.Size(1444, 488);
             this.dgvBookList.TabIndex = 51;
+            this.dgvBookList.SelectionChanged += new System.EventHandler(this.dgvBookList_SelectionChanged);
             // 
             // BarCode
             // 
@@ -580,7 +586,7 @@
             // 
             this.btnClose.Image = ((System.Drawing.Image)(resources.GetObject("btnClose.Image")));
             this.btnClose.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnClose.Location = new System.Drawing.Point(1355, 67);
+            this.btnClose.Location = new System.Drawing.Point(1354, 68);
             this.btnClose.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(120, 65);
@@ -601,6 +607,7 @@
             this.btnDel.Text = "Delete";
             this.btnDel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnDel.UseVisualStyleBackColor = true;
+            this.btnDel.Click += new System.EventHandler(this.btnDel_Click);
             // 
             // FmBookManager
             // 

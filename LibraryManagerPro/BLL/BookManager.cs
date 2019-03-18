@@ -48,6 +48,21 @@ namespace BLL
         {
             return objBookService.AddBookCount(BarCode, bookcount);
         }
+
+        public List<Books> GetBook(int CategoryId, string BarCode, string BookName)
+        {
+            return objBookService.GetBook(CategoryId, BarCode, BookName);
+        }
+
+        public int EditBook(Books Book)
+        {
+            return objBookService.EditBook(Book);
+        }
+
+        public int DeleteBook(string BookId)
+        {
+            return objBookService.DeleteBook(BookId);
+        }
     }
 
 }
